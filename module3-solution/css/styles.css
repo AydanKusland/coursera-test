@@ -1,0 +1,46 @@
+/* Hide menu if device is bigger than XS */
+@media (min-width: 576px) {
+    .hideIfMoreXS {
+        display: none;
+    }
+}
+
+/* Header */
+#nacContainer {
+padding: 0;
+}
+#nacContainer > button {
+    margin-right: 5px;
+}
+.navbar-brand {
+    font-weight: bold;
+    margin-left: 10px;
+}
+.navbarMenuItems {
+    background-color: rgb(226, 245, 220);
+    text-align: center;
+    list-style-type: none;
+    font-size: 1.04em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.navbarMenuItems > li {
+    border: black 1px solid;
+    width: 100%;
+    padding: 1px;
+}
+.navbarMenuItems :nth-child(1) {
+    margin-top: 5px;
+}
+
+/* End of header */
+
+h2 {
+    margin-top: 10px;
+}
+.theOnlySection {
+    background-color: rgb(186, 245, 247);
+    padding: 10px 10px;
+    margin-top: 10px;
+}
